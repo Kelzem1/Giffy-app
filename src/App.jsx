@@ -19,23 +19,14 @@ export default function App (){
       {
         gifs.map(singleGif => {
 
-          //NO SE QUE LO DE LA KEY
-        return <div>
+          
+        return <div key={[]}>
           <h4>{singleGif.title}</h4>
           <img alt={singleGif.title} src= {singleGif.url}/>
           </div>
       })
         
-      }
-         
-        
-      </section>
-      
-        
-       
-        
-        
-      
-        
+      }   
+      </section>      
     </div>
   )}
