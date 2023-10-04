@@ -1,0 +1,15 @@
+.Gif{
+    border-radius: 6px;
+    border: 1px solid aquamarine;
+    display: flex;
+    margin: 12px;
+    padding: 24px;
+    flex-direction: column;
+}
+.Gif img{
+    object-fit: contain;
+}
+.Gif h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
