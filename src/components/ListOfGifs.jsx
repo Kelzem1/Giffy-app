@@ -1,4 +1,4 @@
-
+import './Gif.css'
 import Gif from "./Gif";
 import { useState, useEffect } from "react";
 import getGifs from '../services/GetGifs'
@@ -13,7 +13,7 @@ export default function ListOfGifs({ params }){
         .then(gifs => setGifs(gifs))
       }, [keyword])
 
-    return <div>
+    return <div className="gif-c">
     {
        gifs.map(({ id, title, url }) =>
         <Gif id={id}
