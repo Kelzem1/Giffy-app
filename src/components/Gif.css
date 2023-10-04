@@ -1,6 +1,6 @@
 .Gif{
-    border-radius: 6px;
-    border: 1px solid aquamarine;
+    border-radius: 8px;
+    border: 1px solid rgb(228, 225, 11);
     display: flex;
     margin: 12px;
     padding: 24px;
@@ -10,6 +10,6 @@
     object-fit: contain;
 }
 .Gif h4{
-    font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
+    font-family:sans-serif;
+    color: rgb(220, 192, 221);
 }

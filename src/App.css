@@ -42,7 +42,13 @@
 }
 .App{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+a{
+  display: flex;
+  flex-direction: column;
+  color: rgb(220, 192, 221);
+  text-decoration: none;
 }
 button{
   color:whitesmoke
